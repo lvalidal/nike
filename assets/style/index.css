@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(63, 59, 59);
+}
+
+.task {
+  width: 500px;
+  border: 0px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.try {
+  text-align: left;
+  padding: 40px;
+  background-color: rgb(179, 140, 43);
+}
+
+.try img {
+  width: 200px;
+  height: 80px;
+}
+
+.try {
+  position: relative;
+}
+
+.nike {
+  position: absolute;
+  left: 96%;
+  top: 20px;
+}
+
+.nike img {
+  width: 350px;
+  height: 300px;
+}
+.task:hover .nike img {
+  /* animation-name: shoe; */
+  /* animation-duration: 4s; */
+
+  animation: shoe 4s forwards;
+}
+
+@keyframes shoe {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-250px);
+  }
+}
+
+.down {
+  text-align: left;
+  padding: 40px;
+  display: inline-block;
+}
+
+.some {
+  display: flex;
+  gap: 30px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.new button {
+  border: 0px solid;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: seagreen;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.colors {
+  display: flex;
+}
+
+.blue {
+  border: 0px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: navy;
+}
+
+.pink {
+  border: 0px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: hotpink;
+  margin-left: 20px;
+}
